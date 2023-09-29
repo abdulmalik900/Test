@@ -38,7 +38,7 @@ function Faq() {
     <div className="my-8 flex flex-col items-center">
       <h2 className="text-2xl font-bold mb-8 text-third">Frequently Asked Questions</h2>
       <div className=" flex items-center justify-center flex-col ">
-        <div className=' max-w-3xl flex-1  items-start lg:max-w-5xl'>
+        <div className=' max-w-3xl flex-1 pl-5 md:pl-0  items-start lg:max-w-5xl'>
         <div className="flex mb-4">
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer1}>
             {showAnswer1 ? '-' : '+'}
