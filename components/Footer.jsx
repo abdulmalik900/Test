@@ -4,13 +4,14 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <>
-    <footer className="bg-second  pt-12 text-gray-300"> 
+
+
+  <footer className="bg-second  pt-12 text-gray-300"> 
   <div className="container mx-auto px-4 relative"> 
-    <div className="flex flex-wrap -mx-4"> 
-    
+  
+    <div className="flex flex-wrap -mx-4">
       <div className="p-4 w-full  lg:w-4/12"> 
       <div className="mt-4">
-
       <Image
                   src="/image/logo1.png"
                   width={105}
@@ -46,7 +47,7 @@ const Footer = () => {
             </svg></a> 
         </div>                         
       </div>                     
-      <div className="p-4 w-full sm:w-6/12 md:flex-1 lg:w-3/12">
+      <div className="p-4 w-full  more_small   sm:w-6/12 md:flex-1 lg:w-3/12">
         <h2 className="font-bold text-color3-500 text-xl">Pages</h2>
         <hr className="border-gray-600 inline-block mb-6 mt-4 w-3/12" />
         <ul> 
@@ -67,7 +68,7 @@ const Footer = () => {
           </li>                             
         </ul>
       </div>
-      <div className="p-4 w-full sm:w-6/12 md:flex-1 lg:w-3/12">
+      <div className="p-4 w-full more_small sm:w-6/12 md:flex-1 lg:w-3/12">
         <h2 className="font-bold text-color3-500 text-xl">Vehicles</h2>
         <hr className="border-gray-600 inline-block mb-6 mt-4 w-3/12" />
         <ul> 
@@ -88,11 +89,11 @@ const Footer = () => {
           </li>                             
         </ul>
       </div>
-      <div className="p-4 w-full md:w-5/12 lg:w-4/12"> 
-        <h2 className="font-bold text-color3-500 text-xl">Top Cities</h2>
+      <div className="p-4 w-full   md:w-5/12 lg:w-4/12"> 
+        <h2 className="font-bold text-color3-500 text-xl text-center mr-52">Top Cities</h2>
         <hr className="border-gray-600 inline-block mb-6 mt-4 w-3/12" />
-        <div className="-mx-4 flex flex-wrap"> 
-          <div className="pb-4 px-4 w-full sm:w-6/12"> 
+        <div className="-mx-4 flex flex-wrap "> 
+          <div className="pb-4 px-4 w-full more_small sm:w-6/12"> 
             <ul> 
               <li className="mb-4"> 
                 <a href="#" className="hover:text-gray-400">Taxes</a> 
@@ -111,7 +112,7 @@ const Footer = () => {
               </li>                                     
             </ul>
           </div>
-          <div className="pb-4 px-4 w-full sm:w-6/12"> 
+          <div className="pb-4 px-4 w-full more_small  sm:w-6/12"> 
             <ul> 
               <li className="mb-4"> 
                 <a href="#" className="hover:text-gray-400">Dallas</a> 
@@ -133,6 +134,7 @@ const Footer = () => {
         </div>                         
       </div>                     
     </div>                 
+
     <div className="py-4"> 
       <hr className="mb-4 opacity-25" /> 
       <div className="flex flex-wrap -mx-4  items-center"> 
