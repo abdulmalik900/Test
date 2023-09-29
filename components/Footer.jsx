@@ -138,12 +138,12 @@ const Footer = () => {
     <div className="py-4"> 
       <hr className="mb-4 opacity-25" /> 
       <div className="flex flex-wrap -mx-4  items-center"> 
-        <div className="px-4 py-2 w-full md:flex-1"> 
-          <p>© 2023. All Rights Reserved - MR ShiftingMovers</p> 
+        <div className="px-4 py-2 w-full flex-1 "> 
+          <p className='text-xs lg:text-base md:text-base'>© 2023. All Rights Reserved - MR ShiftingMovers</p> 
         </div>                         
-        <div className="px-4 py-2 w-full md:w-auto"> 
-          <a href="#" className="hover:text-gray-400">Privacy Policy</a> |                      
-          <a href="#" className="hover:text-gray-400">Terms of Use</a> 
+        <div className="px-4 py-2 w-full md:w-auto sm:w-auto"> 
+          <a href="#" className="hover:text-gray-400 text-xs lg:text-base md:text-base">Privacy Policy</a> |                      
+          <a href="#" className="hover:text-gray-400 text-xs lg:text-base md:text-base">Terms of Use</a> 
         </div>                         
       </div>                     
     </div>                 
