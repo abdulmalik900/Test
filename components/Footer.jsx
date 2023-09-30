@@ -90,44 +90,44 @@ const Footer = () => {
         </ul>
       </div>
       <div className="p-4 w-full   md:w-5/12 lg:w-4/12"> 
-        <h2 className="font-bold text-color3-500 text-xl text-center mr-52">Top Cities</h2>
+        <h2 className="font-bold text-color3-500 text-xl text-center mr-52">Top Cities in UAI</h2>
         <hr className="border-gray-600 inline-block mb-6 mt-4 w-3/12" />
         <div className="-mx-4 flex flex-wrap "> 
           <div className="pb-4 px-4 w-full more_small sm:w-6/12"> 
             <ul> 
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Taxes</a> 
+                <a href="#" className="hover:text-gray-400">Dubai</a> 
               </li>
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Boston</a> 
+                <a href="#" className="hover:text-gray-400">Abu Dhabi</a> 
               </li>                                     
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Colorado</a> 
+                <a href="#" className="hover:text-gray-400">Sharjah</a> 
               </li>
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">California</a> 
+                <a href="#" className="hover:text-gray-400">Ajman</a> 
               </li>
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Manhattan</a> 
+                <a href="#" className="hover:text-gray-400">Fujairah</a> 
               </li>                                     
             </ul>
           </div>
           <div className="pb-4 px-4 w-full more_small  sm:w-6/12"> 
             <ul> 
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Dallas</a> 
+                <a href="#" className="hover:text-gray-400">Ras Al Khaimah</a> 
               </li>
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Huston</a> 
+                <a href="#" className="hover:text-gray-400">Umm Al Quwain</a> 
               </li>
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Seattle</a> 
+                <a href="#" className="hover:text-gray-400">Al Ain</a> 
               </li>
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Denver</a> 
+                <a href="#" className="hover:text-gray-400">Dibba Al-Fujairah</a> 
               </li>
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Phoenix</a> 
+                <a href="#" className="hover:text-gray-400">Khor Fakkan</a> 
               </li>                                     
             </ul>
           </div>                             
