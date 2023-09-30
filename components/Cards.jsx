@@ -19,7 +19,7 @@ const Cards = () => {
   className="container mx-auto px-2"> 
     <div className="-mx-4 flex flex-wrap items-center mb-2"> 
       <div className="px-4 w-full md:w-10/12"> 
-        <h3 className="capitalize font-bold text-4xl text-gray-900">Our Top Available Cars</h3>
+        <h3 className="capitalize font-bold sm:text-lg md:text-lg lg:text-2xl text-gray-900">Our Top Available Cars</h3>
         <div className="bg-primary-500 mb-3 pb-1 w-2/12" />                             
       </div>                         
     </div>

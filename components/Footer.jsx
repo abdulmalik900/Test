@@ -21,9 +21,9 @@ const Footer = () => {
                 />
         </div>
         <ul className="mb-4 space-y-1">
-          <li>Abu Dubia </li>
+          <li> Surrounding in All UAE 🏳️‍🌈 </li>
           <li>
-            <a href="#" className="hover:text-gray-400 text-white">+0 123 456 7890</a>
+            <a href="#" className="hover:text-gray-400 text-white">+971526686087</a>
           </li>
           <li>
             <a href="mailto:hello@fafo.com" className="hover:text-gray-400 text-white">info@company.com</a>
@@ -90,7 +90,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="p-4 w-full   md:w-5/12 lg:w-4/12"> 
-        <h2 className="font-bold text-color3-500 text-xl text-center mr-52">Top Cities in UAI</h2>
+        <h2 className="font-bold text-color3-500 text-xl text-center mr-52">Cities in UAE</h2>
         <hr className="border-gray-600 inline-block mb-6 mt-4 w-3/12" />
         <div className="-mx-4 flex flex-wrap "> 
           <div className="pb-4 px-4 w-full more_small sm:w-6/12"> 
