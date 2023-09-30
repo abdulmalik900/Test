@@ -9,3 +9,13 @@
     }
 
 }
+
+
+@media (max-width: 600px) {
+    .Slider_sliderContainer__3rN6X .Slider_slide__2Qa9f img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  
