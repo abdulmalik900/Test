@@ -1,15 +1,6 @@
 "use client"
 import Image from 'next/image';
 
-<a href="#">
-  <Image 
-    src="https://images.unsplash.com/photo-1619976215249-0b68cef412b0?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE2fHxob25kYXxlbnwwfHx8fDE2MzE2OTcxODY&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=450&fit=crop"
-    alt="..."
-    width={600}
-    height={450}
-    className="hover:opacity-90 w-full"
-  />
-</a>
 
 const Cards = () => {
   return (
@@ -27,11 +18,13 @@ const Cards = () => {
       <div className="p-3 w-full md:w-6/12 lg:w-4/12"> 
         <div className="bg-white border shadow-md text-gray-500"> 
         <a href="#">
-  <Image 
-    src="/image/Mitsubishi.jpg"
+  <Image
+  // Pic 1 
+    src="/image/ok.jpg"
     alt="..."
+    objectFit='contain'
     width={600}
-    height={450}
+    height={500}
     className="hover:opacity-90 w-full"
   />
 </a>
@@ -48,10 +41,13 @@ const Cards = () => {
         <div className="bg-white border shadow-md text-gray-500"> 
         <a href="#">
   <Image 
-    src="https://images.unsplash.com/photo-1619976215249-0b68cef412b0?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDE2fHxob25kYXxlbnwwfHx8fDE2MzE2OTcxODY&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=450&fit=crop"
+
+  // Pic 2
+    src="/image/freezer.jpg"
     alt="..."
+    objectFit='contain'
     width={600}
-    height={450}
+    height={500}
     className="hover:opacity-90 w-full"
   />
 </a>
@@ -66,10 +62,12 @@ const Cards = () => {
         <div className="bg-white border shadow-md text-gray-500"> 
         <a href="#">
   <Image 
-    src="https://images.unsplash.com/photo-1554666869-04dafcdc7a48?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDQxN3x8Y2FyJTIwc3V2fGVufDB8fHx8MTYzMTY4NTkwNg&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=450&fit=crop"
+  // pic 3
+    src="/image/rr.jpg"
     alt="..."
     width={600}
-    height={450}
+    height={500}
+    objectFit='contain'
     className="hover:opacity-90 w-full"
   />
 </a>
@@ -84,10 +82,11 @@ const Cards = () => {
         <div className="bg-white border shadow-md text-gray-500"> 
         <a href="#">
   <Image 
-    src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDMwfHxzcG9ydHMlMjBjYXJ8ZW58MHx8fHwxNjMxNjg3MzQ4&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=450&fit=crop"
+    src="/image/ww.jpg"
     alt="..."
+    objectFit='contain'
     width={600}
-    height={450}
+    height={500}
     className="hover:opacity-90 w-full"
   />
 </a>
@@ -102,10 +101,11 @@ const Cards = () => {
         <div className="bg-white border shadow-md text-gray-500"> 
         <a href="#">
   <Image 
-    src="https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDk5fHxjYXIlMjBjb252ZXJ0aWJsZXxlbnwwfHx8fDE2MzE2ODUxMzA&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=450&fit=crop"
+    src="/image/wee.jpg"
     alt="..."
+    objectFit='contain'
     width={600}
-    height={450}
+    height={500}
     className="hover:opacity-90 w-full"
   />
 </a>
@@ -120,10 +120,11 @@ const Cards = () => {
         <div className="bg-white border shadow-md text-gray-500"> 
         <a href="#">
   <Image 
-    src="https://images.unsplash.com/photo-1625231334168-35067f8853ed?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDU2fHxzcG9ydHMlMjBjYXJ8ZW58MHx8fHwxNjMxNjg3OTY1&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=450&fit=crop"
+    src="/image/ton1.png"
     alt="..."
+    objectFit='contain'
     width={600}
-    height={450}
+    height={500}
     className="hover:opacity-90 w-full"
   />
 </a>
