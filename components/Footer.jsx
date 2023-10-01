@@ -23,10 +23,12 @@ const Footer = () => {
         <ul className="mb-4 space-y-1">
           <li> Surrounding in All UAE 🏳️‍🌈 </li>
           <li>
-            <a href="#" className="hover:text-gray-400 text-white">+971526686087</a>
+            <a href="#" className="hover:text-gray-400 text-white">00971568608823</a><br/>
+            <a href="#" className="hover:text-gray-400 text-white">00971526686087</a>
+            
           </li>
           <li>
-            <a href="mailto:hello@fafo.com" className="hover:text-gray-400 text-white">info@company.com</a>
+            <a href="mailto:hello@fafo.com" className="hover:text-gray-400 text-white"> M.R ShiftingMovers@gmail.com</a>
           </li>
         </ul>                         
         <div className="flex-wrap inline-flex space-x-3"> 
@@ -52,13 +54,13 @@ const Footer = () => {
         <hr className="border-gray-600 inline-block mb-6 mt-4 w-3/12" />
         <ul> 
           <li className="mb-4"> 
-            <a href="#" className="hover:text-gray-400">FAQ</a> 
+            <a href="#" className="hover:text-gray-400">Home</a> 
           </li>
           <li className="mb-4"> 
-            <a href="#" className="hover:text-gray-400">News</a> 
+            <a href="#" className="hover:text-gray-400">Services</a> 
           </li>                             
           <li className="mb-4"> 
-            <a href="#" className="hover:text-gray-400">Careers</a> 
+            <a href="#" className="hover:text-gray-400">Location</a> 
           </li>
           <li className="mb-4"> 
             <a href="#" className="hover:text-gray-400">About Us</a> 
@@ -73,33 +75,33 @@ const Footer = () => {
         <hr className="border-gray-600 inline-block mb-6 mt-4 w-3/12" />
         <ul> 
           <li className="mb-4"> 
-            <a href="#" className="hover:text-gray-400">SUVs</a> 
+            <a href="#" className="hover:text-gray-400">Mitsubishi Box 3 Ton</a> 
           </li>
           <li className="mb-4"> 
-            <a href="#" className="hover:text-gray-400">Sedans</a> 
+            <a href="#" className="hover:text-gray-400">Mitsubishi Box 10 Ton</a> 
           </li>                             
           <li className="mb-4"> 
-            <a href="#" className="hover:text-gray-400">Mini Vans</a> 
+            <a href="#" className="hover:text-gray-400">Mitsubishi Box 10 Ton</a> 
           </li>
           <li className="mb-4"> 
-            <a href="#" className="hover:text-gray-400">Sports Cars</a> 
+            <a href="#" className="hover:text-gray-400">Mitsubishi Top 3 Ton</a> 
           </li>
           <li className="mb-4"> 
-            <a href="#" className="hover:text-gray-400">Convertibles</a> 
+            <a href="#" className="hover:text-gray-400">High Roof Chiller Van</a> 
           </li>                             
         </ul>
       </div>
       <div className="p-4 w-full   md:w-5/12 lg:w-4/12"> 
-        <h2 className="font-bold text-color3-500 text-xl text-center mr-52">Cities in UAE</h2>
+        <h2 className="font-bold text-color3-500 text-xl text-center mr-52">Location Services</h2>
         <hr className="border-gray-600 inline-block mb-6 mt-4 w-3/12" />
         <div className="-mx-4 flex flex-wrap "> 
           <div className="pb-4 px-4 w-full more_small sm:w-6/12"> 
             <ul> 
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Dubai</a> 
+                <a href="#" className="hover:text-gray-400">Abu Dhabi</a> 
               </li>
               <li className="mb-4"> 
-                <a href="#" className="hover:text-gray-400">Abu Dhabi</a> 
+                <a href="#" className="hover:text-gray-400">Dhabi</a> 
               </li>                                     
               <li className="mb-4"> 
                 <a href="#" className="hover:text-gray-400">Sharjah</a> 
@@ -139,11 +141,11 @@ const Footer = () => {
       <hr className="mb-4 opacity-25" /> 
       <div className="flex flex-wrap -mx-4  items-center"> 
         <div className="px-4 py-2 w-full flex-1 "> 
-          <p className='text-xs lg:text-base md:text-base'>© 2023. All Rights Reserved - MR ShiftingMovers</p> 
+          <p className='text-xs lg:text-base md:text-base'>© 2023. All Rights Reserved - M.R ShiftingMovers</p> 
         </div>                         
         <div className="px-4 py-2 w-full md:w-auto sm:w-auto"> 
           <a href="#" className="hover:text-gray-400 text-xs lg:text-base md:text-base">Privacy Policy</a> |                      
-          <a href="#" className="hover:text-gray-400 text-xs lg:text-base md:text-base">Terms of Use</a> 
+          <a href="#" className="hover:text-gray-400 text-xs lg:text-base md:text-base"> Terms of Use</a> 
         </div>                         
       </div>                     
     </div>                 

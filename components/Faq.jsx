@@ -43,74 +43,66 @@ function Faq() {
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer1}>
             {showAnswer1 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">What type of content can I find on TechTrove?</h3>
+          <h3 className="text-lg font-medium">What services does M.R ShiftingMovers offer in UAE?</h3>
         </div>
         {showAnswer1 && (
           <p className="text-gray-600  mb-4">
-            TechTrove is a technology blog and resources website where you can find articles,
-             tutorials, and reviews on
-            various topics such as programming, web development, cybersecurity, 
-            artificial intelligence, and more.
+         M.R ShiftingMovers offers a range of services including furniture removal for houses, villas, apartments, and office shifting. We also provide professional carpenter labor and transport services.
           </p>
         )}
         <div className="flex  mb-4">
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer2}>
             {showAnswer2 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">Are all of the resources and articles on TechTrove free to access?</h3>
+          <h3 className="text-lg font-medium">How experienced are your movers and packers?</h3>
         </div>
         {showAnswer2 && (
           <p className="text-gray-600 mb-4">
-            Yes, all of our resources and articles are completely free to access and use. We believe that knowledge should
-            be accessible to everyone.
+           Our movers and packers at M.R ShiftingMovers are highly experienced and trained professionals. They have extensive knowledge in handling and transporting furniture, ensuring a smooth and efficient relocation process.
           </p>
         )}
         <div className="flex  mb-4">
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer3}>
             {showAnswer3 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">How often do you publish new articles?</h3>
+          <h3 className="text-lg font-medium">Can you handle both residential and commercial moves?</h3>
         </div>
         {showAnswer3 && (
           <p className="text-gray-600 mb-4">
-            We publish new articles on a regular basis, typically a few times a week. Check back frequently for new
-            content
+            Absolutely! We specialize in both residential and commercial moves. Whether you are moving your home or office, M.R ShiftingMovers has the expertise to handle all types of relocations with utmost care and efficiency.
           </p>
         )}
         <div className="flex items-center mb-4">
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer4}>
             {showAnswer4 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">Can I suggest a topic for an article or tutorial?</h3>
+          <h3 className="text-lg font-medium">Do you provide packing materials for the move?</h3>
         </div>
         {showAnswer4 && (
           <p className="text-gray-600 mb-4">
-            Yes, we welcome suggestions for new topics and articles. Please contact us with your ideas, and we ll do our
-            best to cover them.
+            Yes, we provide high-quality packing materials to ensure the safety of your belongings during the move. Our team will carefully pack your furniture and other items using appropriate packing materials to prevent any damage or breakage.
           </p>
         )}
         <div className="flex items-center mb-4">
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer5}>
             {showAnswer5 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">How can I submit feedback or report a problem with the website?</h3>
+          <h3 className="text-lg font-medium">How can I get a quote for my upcoming move?</h3>
         </div>
         {showAnswer5 && (
           <p className="text-gray-600 mb-4">
-            You can use our contact page to submit feedback or report any problems you encounter on our website. We value
-            your feedback and will do our best to address any issues you may have.
+            Getting a quote is easy! Simply visit our website or give us a call, and our friendly customer service team will assist you in providing a personalized quote based on your specific moving requirements.
           </p>
         )}
         <div className="flex items-center mb-4">
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer6}>
             {showAnswer6 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">How can I support TechTrove?</h3>
+          <h3 className="text-lg font-medium">Is M.R ShiftingMovers licensed and insured?</h3>
         </div>
         {showAnswer6 && (
           <p className="text-gray-600 mb-4">
-            The best way to support us is to share our content on social media and with your friends and colleagues. You
-            can also sign up for our newsletter and follow us on social media to stay up-to-date with our latest content.
+            Yes, M.R ShiftingMovers is a licensed and insured moving company. We are fully committed to providing our customers with professional and reliable moving services while ensuring the safety of their belongings. Our team is trained to handle all types of relocations, and we take pride in being a trusted and reputable moving company in UAE.
           </p>
         )}
         </div>
