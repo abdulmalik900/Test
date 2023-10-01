@@ -22,7 +22,7 @@ const Cards = () => {
   // Pic 1 
     src="/image/ok.jpg"
     alt="..."
-    objectFit='contain'
+    objectFit="contain"
     width={600}
     height={500}
     className="hover:opacity-90 w-full"
@@ -45,7 +45,7 @@ const Cards = () => {
   // Pic 2
     src="/image/freezer.jpg"
     alt="..."
-    objectFit='contain'
+    objectFit="contain"
     width={600}
     height={500}
     className="hover:opacity-90 w-full"
@@ -67,7 +67,7 @@ const Cards = () => {
     alt="..."
     width={600}
     height={500}
-    objectFit='contain'
+    objectFit="contain"
     className="hover:opacity-90 w-full"
   />
 </a>
@@ -84,7 +84,7 @@ const Cards = () => {
   <Image 
     src="/image/ww.jpg"
     alt="..."
-    objectFit='contain'
+    objectFit="contain"
     width={600}
     height={500}
     className="hover:opacity-90 w-full"
@@ -92,7 +92,7 @@ const Cards = () => {
 </a>
           <div className="p-6">
             <h4 className="font-bold mb-2 text-gray-900 text-xl"><a href="#" className="hover:text-gray-500">Mitsubishi Fuso Open Top 3 Ton</a></h4>
-            <p className="mb-2 text-sm">Mitsubishi Fuso Open Top 3 Ton! This powerful truck is ideal for a variety of uses, including furniture removal for houses, villas, apartments, and office shifting. It's also perfect for professional carpenter labor and transport services. With its open top design, the Mitsubishi Fuso Open Top 3 Ton is great for transporting large or bulky items with ease</p>
+            <p className="mb-2 text-sm">Mitsubishi Fuso Open Top 3 Ton! This powerful truck is ideal for a variety of uses, including furniture removal for houses, villas, apartments, and office shifting. It is also perfect for professional carpenter labor and transport services. With its open top design, the Mitsubishi Fuso Open Top 3 Ton is great for transporting large or bulky items with ease</p>
           
           </div>                                 
         </div>                             
@@ -103,7 +103,7 @@ const Cards = () => {
   <Image 
     src="/image/ton1.png"
     alt="..."
-    objectFit='contain'
+    objectFit="contain"
     width={600}
     height={500}
     className="hover:opacity-90 w-full"
@@ -111,7 +111,7 @@ const Cards = () => {
 </a>
           <div className="p-6">
             <h4 className="font-bold mb-2 text-gray-900 text-xl"><a href="#" className="hover:text-gray-500">Mitsubishi Open Top 1 - 1.5 Ton</a></h4>
-            <p className="mb-2 text-sm">The Mitsubishi Open Top 1 , 1.5 Ton  This versatile truck is well-suited for a range of uses, including furniture removal for houses, villas, apartments, and office shifting. It's also great for the carpenter labor and transport services. Available Open Top 1 , 1.5 Ton can fulfill your transportation needs in UAE .</p>
+            <p className="mb-2 text-sm">The Mitsubishi Open Top 1 - 1.5 Ton  This versatile truck is well-suited for a range of uses including furniture removal for houses, villas, apartments, and office shifting. It is also great for the carpenter labor and transport services. Available Open Top 1 , 1.5 Ton can fulfill your transportation needs in UAE .</p>
             
           </div>                                 
         </div>                             
@@ -122,7 +122,7 @@ const Cards = () => {
   <Image 
     src="/image/wee.jpg"
     alt="..."
-    objectFit='contain'
+    objectFit="contain"
     width={600}
     height={500}
     className="hover:opacity-90 w-full"

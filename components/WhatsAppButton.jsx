@@ -4,7 +4,7 @@ import WhatsAppIcon from '../public/image/whatsapp-icon.png';
 
 function WhatsAppButton() {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '+971526686087'; // Replace with your business phone number
+    const phoneNumber = "+971526686087"; // Replace with your business phone number
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, '_blank');
     
