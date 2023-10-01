@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 
 const Manager = () => {
   return (
@@ -17,7 +17,13 @@ const Manager = () => {
         <footer className="mt-8">
           <div className="md:flex md:items-center md:justify-center">
             <div className="md:flex-shrink-0">
-              <img alt="Muhammad Rahman" loading="lazy" className="mx-auto h-16 w-[20] object-contain rounded-full" src="/image/avatar.png" />
+                <Image src="/image/avatar.png"
+                 width="50"
+                 height="60"
+                 className="mx-auto  object-contain rounded-full"
+                 alt="Muhammad Rahman"
+                 />
+              
             </div>
             <div className=" text-center md:mt-0 md:ml-4 md:flex md:items-center">
               <div className="text-base leading-6 font-medium text-gray-900">

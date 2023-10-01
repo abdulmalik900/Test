@@ -5,9 +5,9 @@ import Image from "next/image";
 const Hero = () => {
   return (                
     <>
-      <div className="h-[100vh] w-full bg-gray-400">
+      <div className="h-[100vh] overflow-hidden bg-gray-400">
         <Carousel onSlideChange={(slideIdx) => console.log(slideIdx)}>
-          <div className="sm:h-full h-[100vh] w-full">
+          <div className="sm:h-full h-[100vh]">
             <Image
               src="/image/slide1.jpg"
               alt="Slide 1"
@@ -25,7 +25,7 @@ const Hero = () => {
 
           </div>
 
-          <div className="sm:h-full h-[100vh] w-full ">
+          <div className="sm:h-full h-[100vh] ">
             <Image
               src="/image/slide2.jpg"
               alt="Slide 2"

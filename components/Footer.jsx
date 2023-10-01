@@ -88,7 +88,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="p-4 w-full   md:w-5/12 lg:w-4/12"> 
-        <h2 className="font-bold text-color3-500 text-xl text-center mr-52">Location Services</h2>
+        <h2 className="font-bold text-color3-500 text-xl text-center mr-52">Location</h2>
         <hr className="border-gray-600 inline-block mb-6 mt-4 w-3/12" />
         <div className="-mx-4 flex flex-wrap "> 
           <div className="pb-4 px-4 w-full more_small sm:w-6/12"> 

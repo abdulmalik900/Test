@@ -38,7 +38,7 @@ const Test = () => {
         </a>
       </div>
       <div className="px-6 py-4 mb-auto">
-        <a href="#" className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">Simplest
+        <a href="#" className="font-medium text-lg hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">Simplest
           Salad Recipe ever</a>
         <p className="text-gray-500 text-sm">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -79,7 +79,7 @@ const Test = () => {
         </a>
       </div>
       <div className="px-6 py-4 mb-auto">
-        <a href="#" className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">Best
+        <a href="#" className="font-medium text-lg  hover:text-indigo-600 transition duration-500 ease-in-out  mb-2">Best
           FastFood Ideas (Yummy)</a>
         <p className="text-gray-500 text-sm">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -120,7 +120,7 @@ const Test = () => {
         </a>
       </div>
       <div className="px-6 py-4 mb-auto">
-        <a href="#" className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out inline-block mb-2">Why
+        <a href="#" className="font-medium text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out  mb-2">Why
           to eat salad?</a>
         <p className="text-gray-500 text-sm">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
