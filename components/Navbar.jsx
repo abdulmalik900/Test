@@ -25,7 +25,7 @@ const Navbar = () => {
               </Link>
             </li>
             <Link href="../services" legacyBehavior>
-                <a className="hover:text-gray-50 font-sans">Moving Service </a>
+                <a className="hover:text-gray-50 font-sans"> Move Services </a>
               </Link>
             <Link href="../location" legacyBehavior>
                 <a className="hover:text-gray-50 font-sans">Location</a>
@@ -77,7 +77,7 @@ const Navbar = () => {
 
             <li>
             <Link href="../services" legacyBehavior>
-              <a className="hover:text-gray-50 font-sans"> Moving Service</a>
+              <a className="hover:text-gray-50 font-sans">Move Services</a>
               </Link>
             </li>
 

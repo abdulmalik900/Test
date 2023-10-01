@@ -1,3 +1,4 @@
+import Test from '@/components/Test'
 import React from 'react'
 
 export default function Services () {
@@ -5,6 +6,7 @@ export default function Services () {
     <>
 
     <h1>i m service page</h1>
+    <Test/>
     
     </>
   )

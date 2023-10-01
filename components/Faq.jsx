@@ -43,7 +43,7 @@ function Faq() {
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer1}>
             {showAnswer1 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">What services does M.R ShiftingMovers offer in UAE?</h3>
+          <h3 className="lg:text-lg  md:text-base  text-base  font-medium">What services does M.R ShiftingMovers offer in UAE?</h3>
         </div>
         {showAnswer1 && (
           <p className="text-gray-600  mb-4">
@@ -54,7 +54,7 @@ function Faq() {
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer2}>
             {showAnswer2 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">How experienced are your movers and packers?</h3>
+          <h3 className="lg:text-lg  md:text-base  text-base  font-medium">How experienced are your movers and packers?</h3>
         </div>
         {showAnswer2 && (
           <p className="text-gray-600 mb-4">
@@ -65,7 +65,7 @@ function Faq() {
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer3}>
             {showAnswer3 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">Can you handle both residential and commercial moves?</h3>
+          <h3 className="lg:text-lg  md:text-base  text-base  font-medium">Can you handle both residential and commercial moves?</h3>
         </div>
         {showAnswer3 && (
           <p className="text-gray-600 mb-4">
@@ -76,7 +76,7 @@ function Faq() {
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer4}>
             {showAnswer4 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">Do you provide packing materials for the move?</h3>
+          <h3 className="lg:text-lg  md:text-base  text-base  font-medium">Do you provide packing materials for the move?</h3>
         </div>
         {showAnswer4 && (
           <p className="text-gray-600 mb-4">
@@ -87,7 +87,7 @@ function Faq() {
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer5}>
             {showAnswer5 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">How can I get a quote for my upcoming move?</h3>
+          <h3 className="lg:text-lg  md:text-base  text-base  font-medium">How can I get a quote for my upcoming move?</h3>
         </div>
         {showAnswer5 && (
           <p className="text-gray-600 mb-4">
@@ -98,11 +98,11 @@ function Faq() {
           <button className="text-gray-600 hover:text-gray-900 mr-2" onClick={handleToggleAnswer6}>
             {showAnswer6 ? '-' : '+'}
           </button>
-          <h3 className="text-lg font-medium">Is M.R ShiftingMovers licensed and insured?</h3>
+          <h3 className="lg:text-lg  md:text-base  text-base  font-medium">Do you offer cleaning services for the old location after the move?</h3>
         </div>
         {showAnswer6 && (
           <p className="text-gray-600 mb-4">
-            Yes, M.R ShiftingMovers is a licensed and insured moving company. We are fully committed to providing our customers with professional and reliable moving services while ensuring the safety of their belongings. Our team is trained to handle all types of relocations, and we take pride in being a trusted and reputable moving company in UAE.
+            Yes, we offer cleaning services for the old location after the move to ensure that it is left in a clean and tidy condition. Our team will clean the space according to your specifications, allowing you to focus on settling into your new location
           </p>
         )}
         </div>
